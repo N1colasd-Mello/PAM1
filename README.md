@@ -2,6 +2,8 @@
 
 Nicolas de Mello Marques & Leonardo Augusto de Souza Silva
 
+
+
 react_exemplo
 
 npx create-expo-app nome_do_app
