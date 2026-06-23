@@ -1,24 +1,23 @@
 # Programa-o-de-Aplicativos-Mobile
-package com.example.bryan
 
-import ...
+Nicolas de Mello Marques & Leonardo Augusto de Souza Silva
 
-class MainActivity : AppCompatActivity() {
+react_exemplo
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-    }
+npx create-expo-app nome_do_app
 
-    fun login(view: View) {
+cd nome_do_app
 
-        val email = findViewById<EditText>(R.id.log_email).text.toString()
-        val senha = findViewById<EditText>(R.id.log_senha).text.toString()
+npm iniciar
 
-        if (email == "lucas@hotmail.com" && senha == "abcd@1234") {
+react_vazio
 
-            Toast.makeText(this, email, Toast.LENGTH_SHORT).show("Logado com sucesso")
+npx create-expo-app nome_do_app --template blank
 
-        } else {
+cd nome_do_app
 
-            Toast.makeText(this, email, Toast.LENGTH_SHORT).show("Inválido")
+npx expo install react-dom react-native-web @expo/metro-runtime
+
+npm run web
+
+npx expo start --web
