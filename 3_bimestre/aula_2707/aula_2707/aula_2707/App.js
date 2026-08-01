@@ -28,28 +28,32 @@ export default function App() {
 
   const albuns = [
     {
-      nome:"Nome do Álbum 1",
-      imagem:"https://via.placeholder.com/200"
+      nome:"Força Da Juventude",
+      imagem:"https://mundodamusicamm.com.br/wp-content/uploads/2026/05/Capa-do-album-Forca-da-Juventude-de-Os-Garotin-1024x770.jpg"
     },
     {
-      nome:"Nome do Álbum 2",
-      imagem:"https://via.placeholder.com/200"
+      nome:"Igor",
+      imagem:"https://cdn-images.dzcdn.net/images/cover/041ab5ceb6fb6ebf9512966835be9e1b/0x1900-000000-80-0-0.jpg"
     },
     {
-      nome:"Nome do Álbum 3",
-      imagem:"https://via.placeholder.com/200"
+      nome:"Freudian",
+      imagem:"https://akamai.sscdn.co/uploadfile/letras/albuns/6/1/7/b/593651503926053.jpg"
     },
     {
-      nome:"Nome do Álbum 4",
-      imagem:"https://via.placeholder.com/200"
+      nome:"Blond",
+      imagem:"https://akamai.sscdn.co/uploadfile/letras/albuns/2/3/9/0/528311701950316.jpg"
     },
     {
-      nome:"Nome do Álbum 5",
-      imagem:"https://via.placeholder.com/200"
+      nome:"Patrono",
+      imagem:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB1qMJ1aY39CpeAx9k0f58nPz7eCakOlDqXzSN1BmOCmcU0S46cxoOjmQ&s=10"
     },
     {
-      nome:"Nome do Álbum 6",
-      imagem:"https://via.placeholder.com/200"
+      nome:"Tons De Marrom",
+      imagem:"https://i.scdn.co/image/ab67616d0000b273be7bc0b44878a5266e849742"
+    },
+    {
+      nome:"Melodia&Barulho",
+      imagem:"https://i.scdn.co/image/ab67616d0000b273a51652c40b06b9f48d305b2b"
     }
   ];
 
@@ -64,8 +68,6 @@ export default function App() {
       <View style={styles.container}>
 
 
-        {/* Imagem principal */}
-
         <Image
           source={{
             uri:
@@ -78,14 +80,11 @@ export default function App() {
         <View style={styles.topo}>
 
           <Text style={styles.logo}>
-            SoundWave
+            Estação 12
           </Text>
 
         </View>
 
-
-
-        {/* Pesquisa */}
 
         <View style={styles.areaPesquisa}>
 
@@ -113,11 +112,6 @@ export default function App() {
         </View>
 
 
-
-
-
-        {/* Categorias */}
-
         <ScrollView 
           horizontal
           showsHorizontalScrollIndicator={false}
@@ -134,9 +128,6 @@ export default function App() {
 
 
 
-
-
-        {/* Álbuns */}
 
         <Text style={styles.titulo}>
           Álbuns em destaque
