@@ -23,3 +23,7 @@ npx expo install react-dom react-native-web @expo/metro-runtime
 npm run web
 
 npx expo start --web
+
+
+Instalar jdk
+npm install expo@^57.0.0
